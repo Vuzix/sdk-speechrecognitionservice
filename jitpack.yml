@@ -1,0 +1,2 @@
+install:
+mvn install:install-file -Dfile=sdk-speechrecognitionservice.jar -Djavadoc=sdk-speechrecognitionservice-javadoc.jar -DgroupId=com.vuzix -DartifactId=sdk-speechrecognitionservice -Dversion=1.0 -Dpackaging=jar -DgeneratePom=true
