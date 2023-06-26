@@ -4,4 +4,3 @@ var NAVTREE_DATA =
 , null, null ] ]
 
 ;
-
