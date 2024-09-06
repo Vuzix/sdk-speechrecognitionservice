@@ -247,6 +247,7 @@ href="http://fonts.googleapis.com/css?family=Roboto+Condensed">
     <li><h2 class="hide-from-toc">Enums</h2>
       <ul>
           <li><a href="../../../../../reference/com/vuzix/sdk/speechrecognitionservice/VuzixBubbleDelegate.Alignment.html">VuzixBubbleDelegate.Alignment</a></li>
+          <li><a href="../../../../../reference/com/vuzix/sdk/speechrecognitionservice/VuzixSpeechClient.SpeechTolerance.html">VuzixSpeechClient.SpeechTolerance</a></li>
       </ul>
     </li>
           
@@ -511,16 +512,15 @@ href="http://fonts.googleapis.com/css?family=Roboto+Condensed">
 <br><hr>
 
 
-  <p>VuzixBubbleDelegate is used to allow an application developer to specify where
- they would like to location of the numbered speech bubbles to be when voice is active.
+  <p><p>VuzixBubbleDelegate is used to allow an application developer to specify where
+ they would like to location of the numbered speech bubbles to be when voice is active.</p>
 
- Bubbles can be places in any of the 9 pre-defined location, or using a raw offset value
+ <p>Bubbles can be places in any of the 9 pre-defined location, or using a raw offset value</p>
 
- This is an example of customizing the bubble to be placed in the upper right corner:
+ <p>This is an example of customizing the bubble to be placed in the upper right corner:</p>
  <pre>
     myButton.setAccessibilityDelegate(new VuzixBubbleDelegate(Alignment.ALIGN_TOP_END));
- </pre>
-</p>
+ </pre></p>
 
 
 
@@ -595,7 +595,6 @@ href="http://fonts.googleapis.com/css?family=Roboto+Condensed">
       </code>
       
         <p>Construct a VuzixBubbleDelegate and align to one of the pre-defined alignment values
-
         
     
 </p>
@@ -652,6 +651,11 @@ href="http://fonts.googleapis.com/css?family=Roboto+Condensed">
       <a href="../../../../../reference/com/vuzix/sdk/speechrecognitionservice/VuzixBubbleDelegate.html#onInitializeAccessibilityNodeInfo(android.view.View,%20android.view.accessibility.AccessibilityNodeInfo)">onInitializeAccessibilityNodeInfo</a>(View host, AccessibilityNodeInfo info)
       </code>
       
+        <p>This method is called by the framework and should not be called or overridden in your code.
+        
+    
+</p>
+      
     </td>
   </tr>
   
@@ -700,8 +704,8 @@ public VuzixBubbleDelegate (<a href="../../../../../reference/com/vuzix/sdk/spee
     
 
     
-  <p>Construct a VuzixBubbleDelegate and align to one of the pre-defined alignment values
-</p></p>
+  <p>Construct a VuzixBubbleDelegate and align to one of the pre-defined alignment values</p></p>
+    
     <table class="responsive">
     <tr><th colspan=2>Parameters</th></tr>
       <tr>
@@ -730,8 +734,8 @@ public VuzixBubbleDelegate (int x,
 
     
   <p>Construct a VuzixBubbleDelegate using a raw offset. The offset values are relative
- to the upper left corner of the view the bubble is attached to
-</p></p>
+ to the upper left corner of the view the bubble is attached to.</p></p>
+    
     <table class="responsive">
     <tr><th colspan=2>Parameters</th></tr>
       <tr>
@@ -779,7 +783,7 @@ public void onInitializeAccessibilityNodeInfo (View host,
     
 
     
-  <p></p></p>
+  <p>This method is called by the framework and should not be called or overridden in your code.</p></p>
     <table class="responsive">
     <tr><th colspan=2>Parameters</th></tr>
       <tr>
@@ -793,6 +797,12 @@ public void onInitializeAccessibilityNodeInfo (View host,
           <code>AccessibilityNodeInfo</code> <!-- no parameter comment --></p></td>
       </tr>
     </table>
+  <div>
+      <p><b>See also:</b></p>
+      <ul class="nolist"><li><a href="https://developer.android.com/reference/android/view/View.AccessibilityDelegate#onInitializeAccessibilityNodeInfo(android.view.View,%20android.view.accessibility.AccessibilityNodeInfo)">
+ View.AccessibilityDelegate.onInitializeAccessibilityNodeInfo()</a></li>
+      </ul>
+  </div>
 
 </div>
 

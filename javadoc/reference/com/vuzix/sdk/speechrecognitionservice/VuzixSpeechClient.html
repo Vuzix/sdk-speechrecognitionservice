@@ -247,6 +247,7 @@ href="http://fonts.googleapis.com/css?family=Roboto+Condensed">
     <li><h2 class="hide-from-toc">Enums</h2>
       <ul>
           <li><a href="../../../../../reference/com/vuzix/sdk/speechrecognitionservice/VuzixBubbleDelegate.Alignment.html">VuzixBubbleDelegate.Alignment</a></li>
+          <li><a href="../../../../../reference/com/vuzix/sdk/speechrecognitionservice/VuzixSpeechClient.SpeechTolerance.html">VuzixSpeechClient.SpeechTolerance</a></li>
       </ul>
     </li>
           
@@ -549,6 +550,32 @@ href="http://fonts.googleapis.com/css?family=Roboto+Condensed">
 
 
 <h2 class="api-section">Summary</h2>
+
+
+
+<!-- ======== NESTED CLASS SUMMARY ======== -->
+<table id="nestedclasses" class="responsive">
+<tr><th colspan="2"><h3>Nested classes</h3></th></tr>
+
+
+  
+    <tr  >
+      <td class="jd-typecol"><code>
+        
+        
+        
+        
+        enum</code></td>
+      <td class="jd-descrcol" width="100%">
+        <code><a href="../../../../../reference/com/vuzix/sdk/speechrecognitionservice/VuzixSpeechClient.SpeechTolerance.html">VuzixSpeechClient.SpeechTolerance</a></code>
+        <p>Valid values for getSpeechTolerance() and setSpeechTolerance()&nbsp;
+        
+    
+</p>
+      </td>
+    </tr>
+    
+    
 
 
 
@@ -894,7 +921,7 @@ href="http://fonts.googleapis.com/css?family=Roboto+Condensed">
       
         <p><em>
       This constructor is deprecated.
-    This is only supported by M300 and not recommended. Use <code><a href="../../../../../reference/com/vuzix/sdk/speechrecognitionservice/VuzixSpeechClient.html#VuzixSpeechClient(android.app.Activity)">VuzixSpeechClient(Activity)</a></code> instead.
+    This is only supported by M300 and not recommended. Use <code><a href="../../../../../reference/com/vuzix/sdk/speechrecognitionservice/VuzixSpeechClient.html#VuzixSpeechClient(android.app.Activity)">VuzixSpeechClient(android.app.Activity)</a></code> instead.
 </em>
         
     
@@ -1000,8 +1027,7 @@ href="http://fonts.googleapis.com/css?family=Roboto+Condensed">
       
         <p><em>
       This method is deprecated.
-    Use <code><a href="../../../../../reference/com/vuzix/sdk/speechrecognitionservice/VuzixSpeechClient.html#EnableRecognizer(android.content.Context,%20boolean)">EnableRecognizer(Context, boolean)</a></code> instead.
-</em>
+    Use <code><a href="../../../../../reference/com/vuzix/sdk/speechrecognitionservice/VuzixSpeechClient.html#EnableRecognizer(android.content.Context,%20boolean)">EnableRecognizer(android.content.Context, boolean)</a></code> instead.</em>
         
     
 </p>
@@ -1055,7 +1081,7 @@ href="http://fonts.googleapis.com/css?family=Roboto+Condensed">
       
         <p><em>
       This method is deprecated.
-    Use <code><a href="../../../../../reference/com/vuzix/sdk/speechrecognitionservice/VuzixSpeechClient.html#TriggerVoiceAudio(android.content.Context,%20boolean)">TriggerVoiceAudio(Context, boolean)</a></code> instead with the triggered parameter
+    Use <code><a href="../../../../../reference/com/vuzix/sdk/speechrecognitionservice/VuzixSpeechClient.html#TriggerVoiceAudio(android.content.Context,%20boolean)">TriggerVoiceAudio(android.content.Context, boolean)</a></code> instead with the triggered parameter
              set true.
 </em>
         
@@ -1085,7 +1111,7 @@ href="http://fonts.googleapis.com/css?family=Roboto+Condensed">
       
         <p><em>
       This method is deprecated.
-    Use <code><a href="../../../../../reference/com/vuzix/sdk/speechrecognitionservice/VuzixSpeechClient.html#TriggerVoiceAudio(android.content.Context,%20boolean)">TriggerVoiceAudio(Context, boolean)</a></code> instead.
+    Use <code><a href="../../../../../reference/com/vuzix/sdk/speechrecognitionservice/VuzixSpeechClient.html#TriggerVoiceAudio(android.content.Context,%20boolean)">TriggerVoiceAudio(android.content.Context, boolean)</a></code> instead.
 </em>
         
     
@@ -1323,7 +1349,7 @@ href="http://fonts.googleapis.com/css?family=Roboto+Condensed">
       <a href="../../../../../reference/com/vuzix/sdk/speechrecognitionservice/VuzixSpeechClient.html#deleteIntent(java.lang.String)">deleteIntent</a>(String label)
       </code>
       
-        <p>Delete an Intent previously registered by <code><a href="../../../../../reference/com/vuzix/sdk/speechrecognitionservice/VuzixSpeechClient.html#defineIntent(java.lang.String,%20android.content.Intent)">defineIntent(String, Intent)</a></code>.
+        <p>Delete an Intent previously registered by <code><a href="../../../../../reference/com/vuzix/sdk/speechrecognitionservice/VuzixSpeechClient.html#defineIntent(java.lang.String,%20android.content.Intent)">defineIntent(java.lang.String, android.content.Intent)</a></code>.
         
     
 </p>
@@ -1376,6 +1402,32 @@ href="http://fonts.googleapis.com/css?family=Roboto+Condensed">
       </code>
       
         <p>Dumps the content of the entire speech recognition phrase map to a String.
+        
+    
+</p>
+      
+    </td>
+  </tr>
+  
+
+  <tr  >
+  
+  
+    <td><code>
+        
+        
+        
+        
+        
+        boolean</code>
+    </td>
+  
+    <td width="100%">
+      <code>
+      <a href="../../../../../reference/com/vuzix/sdk/speechrecognitionservice/VuzixSpeechClient.html#getBluetoothSetting()">getBluetoothSetting</a>()
+      </code>
+      
+        <p>Gets the system-wide "Bluetooth input" setting.
         
     
 </p>
@@ -1453,7 +1505,7 @@ href="http://fonts.googleapis.com/css?family=Roboto+Condensed">
       <a href="../../../../../reference/com/vuzix/sdk/speechrecognitionservice/VuzixSpeechClient.html#getIntentLabels()">getIntentLabels</a>()
       </code>
       
-        <p>Lists all available intent labels as previously defined by calls to <code><a href="../../../../../reference/com/vuzix/sdk/speechrecognitionservice/VuzixSpeechClient.html#defineIntent(java.lang.String,%20android.content.Intent)">defineIntent(String, Intent)</a></code>.
+        <p>Lists all available intent labels as previously defined by calls to <code><a href="../../../../../reference/com/vuzix/sdk/speechrecognitionservice/VuzixSpeechClient.html#defineIntent(java.lang.String,%20android.content.Intent)">defineIntent(java.lang.String, android.content.Intent)</a></code>.
         
     
 </p>
@@ -1653,6 +1705,58 @@ href="http://fonts.googleapis.com/css?family=Roboto+Condensed">
         
         
         
+        boolean</code>
+    </td>
+  
+    <td width="100%">
+      <code>
+      <a href="../../../../../reference/com/vuzix/sdk/speechrecognitionservice/VuzixSpeechClient.html#getSleepEnableSetting()">getSleepEnableSetting</a>()
+      </code>
+      
+        <p>Gets the system-wide "Listen while asleep" setting.
+        
+    
+</p>
+      
+    </td>
+  </tr>
+  
+
+  <tr  >
+  
+  
+    <td><code>
+        
+        
+        
+        
+        
+        <a href="../../../../../reference/com/vuzix/sdk/speechrecognitionservice/VuzixSpeechClient.SpeechTolerance.html">VuzixSpeechClient.SpeechTolerance</a></code>
+    </td>
+  
+    <td width="100%">
+      <code>
+      <a href="../../../../../reference/com/vuzix/sdk/speechrecognitionservice/VuzixSpeechClient.html#getSpeechTolerance()">getSpeechTolerance</a>()
+      </code>
+      
+        <p>Gets the system-wide "Pronunciation tolerance" setting.
+        
+    
+</p>
+      
+    </td>
+  </tr>
+  
+
+  <tr  >
+  
+  
+    <td><code>
+        
+        
+        
+        
+        
         List&lt;String&gt;</code>
     </td>
   
@@ -1661,7 +1765,7 @@ href="http://fonts.googleapis.com/css?family=Roboto+Condensed">
       <a href="../../../../../reference/com/vuzix/sdk/speechrecognitionservice/VuzixSpeechClient.html#getStopPhrases()">getStopPhrases</a>()
       </code>
       
-        <p>Gets all stop phrases including pre-defined and those created by calling <code><a href="../../../../../reference/com/vuzix/sdk/speechrecognitionservice/VuzixSpeechClient.html#insertStopPhrase(java.lang.String)">insertStopPhrase(String)</a></code>.
+        <p>Gets all stop phrases including pre-defined and those created by calling <code><a href="../../../../../reference/com/vuzix/sdk/speechrecognitionservice/VuzixSpeechClient.html#insertStopPhrase(java.lang.String)">insertStopPhrase(java.lang.String)</a></code>.
         
     
 </p>
@@ -1739,7 +1843,7 @@ href="http://fonts.googleapis.com/css?family=Roboto+Condensed">
       <a href="../../../../../reference/com/vuzix/sdk/speechrecognitionservice/VuzixSpeechClient.html#getVoiceOffPhrases()">getVoiceOffPhrases</a>()
       </code>
       
-        <p>Gets all voice-off phrases including pre-defined and those created by calling <code><a href="../../../../../reference/com/vuzix/sdk/speechrecognitionservice/VuzixSpeechClient.html#insertVoiceOffPhrase(java.lang.String)">insertVoiceOffPhrase(String)</a></code>.
+        <p>Gets all voice-off phrases including pre-defined and those created by calling <code><a href="../../../../../reference/com/vuzix/sdk/speechrecognitionservice/VuzixSpeechClient.html#insertVoiceOffPhrase(java.lang.String)">insertVoiceOffPhrase(java.lang.String)</a></code>.
         
     
 </p>
@@ -1765,7 +1869,7 @@ href="http://fonts.googleapis.com/css?family=Roboto+Condensed">
       <a href="../../../../../reference/com/vuzix/sdk/speechrecognitionservice/VuzixSpeechClient.html#getWakeWordPhrases()">getWakeWordPhrases</a>()
       </code>
       
-        <p>Gets all wake-words including pre-defined and those created by calling <code><a href="../../../../../reference/com/vuzix/sdk/speechrecognitionservice/VuzixSpeechClient.html#insertWakeWordPhrase(java.lang.String)">insertWakeWordPhrase(String)</a></code>.
+        <p>Gets all wake-words including pre-defined and those created by calling <code><a href="../../../../../reference/com/vuzix/sdk/speechrecognitionservice/VuzixSpeechClient.html#insertWakeWordPhrase(java.lang.String)">insertWakeWordPhrase(java.lang.String)</a></code>.
         
     
 </p>
@@ -2203,6 +2307,32 @@ href="http://fonts.googleapis.com/css?family=Roboto+Condensed">
         
         
         
+        void</code>
+    </td>
+  
+    <td width="100%">
+      <code>
+      <a href="../../../../../reference/com/vuzix/sdk/speechrecognitionservice/VuzixSpeechClient.html#setBluetoothSetting(boolean)">setBluetoothSetting</a>(boolean value)
+      </code>
+      
+        <p>Sets the system-wide "Bluetooth input" setting.
+        
+    
+</p>
+      
+    </td>
+  </tr>
+  
+
+  <tr  >
+  
+  
+    <td><code>
+        
+        
+        
+        
+        
         boolean</code>
     </td>
   
@@ -2212,6 +2342,58 @@ href="http://fonts.googleapis.com/css?family=Roboto+Condensed">
       </code>
       
         <p>Sets the configured speech recognizer timeout value.
+        
+    
+</p>
+      
+    </td>
+  </tr>
+  
+
+  <tr  >
+  
+  
+    <td><code>
+        
+        
+        
+        
+        
+        void</code>
+    </td>
+  
+    <td width="100%">
+      <code>
+      <a href="../../../../../reference/com/vuzix/sdk/speechrecognitionservice/VuzixSpeechClient.html#setSleepEnableSetting(boolean)">setSleepEnableSetting</a>(boolean value)
+      </code>
+      
+        <p>Sets the system-wide "Listen while asleep" setting.
+        
+    
+</p>
+      
+    </td>
+  </tr>
+  
+
+  <tr  >
+  
+  
+    <td><code>
+        
+        
+        
+        
+        
+        void</code>
+    </td>
+  
+    <td width="100%">
+      <code>
+      <a href="../../../../../reference/com/vuzix/sdk/speechrecognitionservice/VuzixSpeechClient.html#setSpeechTolerance(com.vuzix.sdk.speechrecognitionservice.VuzixSpeechClient.SpeechTolerance)">setSpeechTolerance</a>(<a href="../../../../../reference/com/vuzix/sdk/speechrecognitionservice/VuzixSpeechClient.SpeechTolerance.html">VuzixSpeechClient.SpeechTolerance</a> value)
+      </code>
+      
+        <p>Sets the system-wide "Pronunciation tolerance" setting.
         
     
 </p>
@@ -2963,7 +3145,7 @@ public VuzixSpeechClient (Fragment fragment)</pre>
     <p>
   <p class="caution"><strong>
       This constructor is deprecated.</strong><br/>
-    This is only supported by M300 and not recommended. Use <code><a href="../../../../../reference/com/vuzix/sdk/speechrecognitionservice/VuzixSpeechClient.html#VuzixSpeechClient(android.app.Activity)">VuzixSpeechClient(Activity)</a></code> instead.
+    This is only supported by M300 and not recommended. Use <code><a href="../../../../../reference/com/vuzix/sdk/speechrecognitionservice/VuzixSpeechClient.html#VuzixSpeechClient(android.app.Activity)">VuzixSpeechClient(android.app.Activity)</a></code> instead.
 
   </p>
   <p>Constructor from a Fragment. Using this will install the custom vocabulary for a single
@@ -3132,17 +3314,14 @@ public static void EnableRecognizer (boolean enabled)</pre>
     <p>
   <p class="caution"><strong>
       This method is deprecated.</strong><br/>
-    Use <code><a href="../../../../../reference/com/vuzix/sdk/speechrecognitionservice/VuzixSpeechClient.html#EnableRecognizer(android.content.Context,%20boolean)">EnableRecognizer(Context, boolean)</a></code> instead.
-
+    Use <code><a href="../../../../../reference/com/vuzix/sdk/speechrecognitionservice/VuzixSpeechClient.html#EnableRecognizer(android.content.Context,%20boolean)">EnableRecognizer(android.content.Context, boolean)</a></code> instead.
   </p>
   <p>Enables or disables the Speech Recognition engine programmatically by attempting to determine the
  Context.
 
  <p>It is the equivalent of turning on or off the "Enable Vuzix Speech Recognition"
     switch in the global Settings application.</p>
- <p>Use the method with the Context parameter if possible; this method is less reliable.</p>
-
- see EnableRecognizer(Context,boolean) for the preferred interface.</p></p>
+ <p>Use the method with the Context parameter if possible; this method is less reliable.</p></p></p>
     
     <table class="responsive">
     <tr><th colspan=2>Parameters</th></tr>
@@ -3152,6 +3331,12 @@ public static void EnableRecognizer (boolean enabled)</pre>
           <code>boolean</code>: True to enable the recognizer. False to disable it.</p></td>
       </tr>
     </table>
+  <div>
+      <p><b>See also:</b></p>
+      <ul class="nolist"><li><code><a href="../../../../../">ERROR(for the preferred interface.
+/EnableRecognizer(android.content.Context,boolean) for the preferred interface.)</a></code></li>
+      </ul>
+  </div>
 
 </div>
 
@@ -3210,7 +3395,7 @@ public static void TriggerVoiceAudio ()</pre>
     <p>
   <p class="caution"><strong>
       This method is deprecated.</strong><br/>
-    Use <code><a href="../../../../../reference/com/vuzix/sdk/speechrecognitionservice/VuzixSpeechClient.html#TriggerVoiceAudio(android.content.Context,%20boolean)">TriggerVoiceAudio(Context, boolean)</a></code> instead with the triggered parameter
+    Use <code><a href="../../../../../reference/com/vuzix/sdk/speechrecognitionservice/VuzixSpeechClient.html#TriggerVoiceAudio(android.content.Context,%20boolean)">TriggerVoiceAudio(android.content.Context, boolean)</a></code> instead with the triggered parameter
              set true.
 
   </p>
@@ -3239,7 +3424,7 @@ public static void TriggerVoiceAudio (boolean triggered)</pre>
     <p>
   <p class="caution"><strong>
       This method is deprecated.</strong><br/>
-    Use <code><a href="../../../../../reference/com/vuzix/sdk/speechrecognitionservice/VuzixSpeechClient.html#TriggerVoiceAudio(android.content.Context,%20boolean)">TriggerVoiceAudio(Context, boolean)</a></code> instead.
+    Use <code><a href="../../../../../reference/com/vuzix/sdk/speechrecognitionservice/VuzixSpeechClient.html#TriggerVoiceAudio(android.content.Context,%20boolean)">TriggerVoiceAudio(android.content.Context, boolean)</a></code> instead.
 
   </p>
   <p>Triggers or deactivates the Speech Recognition engine programmatically.
@@ -3313,7 +3498,7 @@ public static void TriggerVoiceAudio (Context context)</pre>
     
   <p>Triggers the Speech Recognition engine programmatically.
 
- It is the equivalent of <code><a href="../../../../../reference/com/vuzix/sdk/speechrecognitionservice/VuzixSpeechClient.html#TriggerVoiceAudio(android.content.Context,%20boolean)">TriggerVoiceAudio(Context, boolean)</a></code> with the "triggered"
+ It is the equivalent of <code><a href="../../../../../reference/com/vuzix/sdk/speechrecognitionservice/VuzixSpeechClient.html#TriggerVoiceAudio(android.content.Context,%20boolean)">TriggerVoiceAudio(android.content.Context, boolean)</a></code> with the "triggered"
  parameter set to true.</p></p>
     
     <table class="responsive">
@@ -3481,7 +3666,7 @@ public boolean defineIntent (String label,
  <p>Note: Intents are sent with sendBroadcastAsUser() from the service. They will not
  start new activities as would happen from startActivityForResult().</p>
 
- <p>This method must be called prior to calling <code><a href="../../../../../reference/com/vuzix/sdk/speechrecognitionservice/VuzixSpeechClient.html#insertIntentPhrase(java.lang.String,%20java.lang.String)">insertIntentPhrase(String, String)</a></code></p>
+ <p>This method must be called prior to calling <code><a href="../../../../../reference/com/vuzix/sdk/speechrecognitionservice/VuzixSpeechClient.html#insertIntentPhrase(java.lang.String,%20java.lang.String)">insertIntentPhrase(java.lang.String, java.lang.String)</a></code></p>
  <pre>
  For example:
      Intent focus_intent = new Intent(“com.mycompany.camera.speechrecog”).putExtra("focus", true);
@@ -3496,7 +3681,7 @@ public boolean defineIntent (String label,
       <tr>
         <td><code>label</code></td>
         <td width="100%">
-          <code>String</code>: An arbitrary label by which this new Intent will be identified during <code><a href="../../../../../reference/com/vuzix/sdk/speechrecognitionservice/VuzixSpeechClient.html#insertIntentPhrase(java.lang.String,%20java.lang.String)">insertIntentPhrase(String, String)</a></code></p></td>
+          <code>String</code>: An arbitrary label by which this new Intent will be identified during <code><a href="../../../../../reference/com/vuzix/sdk/speechrecognitionservice/VuzixSpeechClient.html#insertIntentPhrase(java.lang.String,%20java.lang.String)">insertIntentPhrase(java.lang.String, java.lang.String)</a></code></p></td>
       </tr>
       <tr>
         <td><code>intent</code></td>
@@ -3607,16 +3792,16 @@ public boolean deleteIntent (String label)</pre>
     
 
     
-  <p>Delete an Intent previously registered by <code><a href="../../../../../reference/com/vuzix/sdk/speechrecognitionservice/VuzixSpeechClient.html#defineIntent(java.lang.String,%20android.content.Intent)">defineIntent(String, Intent)</a></code>.
+  <p>Delete an Intent previously registered by <code><a href="../../../../../reference/com/vuzix/sdk/speechrecognitionservice/VuzixSpeechClient.html#defineIntent(java.lang.String,%20android.content.Intent)">defineIntent(java.lang.String, android.content.Intent)</a></code>.
 
- <p>This method also deletes any phrases that were added with <code><a href="../../../../../reference/com/vuzix/sdk/speechrecognitionservice/VuzixSpeechClient.html#insertIntentPhrase(java.lang.String,%20java.lang.String)">insertIntentPhrase(String, String)</a></code> and are associated with the Intent being removed.</p></p></p>
+ <p>This method also deletes any phrases that were added with <code><a href="../../../../../reference/com/vuzix/sdk/speechrecognitionservice/VuzixSpeechClient.html#insertIntentPhrase(java.lang.String,%20java.lang.String)">insertIntentPhrase(java.lang.String, java.lang.String)</a></code> and are associated with the Intent being removed.</p></p></p>
     
     <table class="responsive">
     <tr><th colspan=2>Parameters</th></tr>
       <tr>
         <td><code>label</code></td>
         <td width="100%">
-          <code>String</code>: - the unique string label provided previously to <code><a href="../../../../../reference/com/vuzix/sdk/speechrecognitionservice/VuzixSpeechClient.html#defineIntent(java.lang.String,%20android.content.Intent)">defineIntent(String, Intent)</a></code></p></td>
+          <code>String</code>: - the unique string label provided previously to <code><a href="../../../../../reference/com/vuzix/sdk/speechrecognitionservice/VuzixSpeechClient.html#defineIntent(java.lang.String,%20android.content.Intent)">defineIntent(java.lang.String, android.content.Intent)</a></code></p></td>
       </tr>
     </table>
     <table class="responsive">
@@ -3736,6 +3921,44 @@ public String dump ()</pre>
 </div>
 
 <div >
+    <h3 class="api-name" id="getBluetoothSetting()">getBluetoothSetting</h3>
+    <div class="api-level">
+      <div>
+  </div>
+      
+  
+
+    </div>
+<pre class="api-signature no-pretty-print">
+public boolean getBluetoothSetting ()</pre>
+    
+    
+
+    
+  <p>Gets the system-wide "Bluetooth input" setting.
+
+ <p>This allows the system to listen to Bluetooth headset audio for speech commands whenever one
+ is connected.</p></p></p>
+    
+    <table class="responsive">
+      <tr><th colspan=2>Returns</th></tr>
+      <tr>
+        <td><code>boolean</code></td>
+        <td width="100%">The value of the headset settings as a boolean</p></td>
+      </tr>
+    </table>
+      <table class="responsive">
+      <tr><th colspan=2>Throws</th></tr>
+        <tr>
+          <td><code>Exception</code></td>
+          <td width="100%"></td>
+        </tr>
+      </table>
+  
+
+</div>
+
+<div >
     <h3 class="api-name" id="getBuiltInActionPhrases(int)">getBuiltInActionPhrases</h3>
     <div class="api-level">
       <div>
@@ -3844,13 +4067,13 @@ public List&lt;String&gt; getIntentLabels ()</pre>
     
 
     
-  <p>Lists all available intent labels as previously defined by calls to <code><a href="../../../../../reference/com/vuzix/sdk/speechrecognitionservice/VuzixSpeechClient.html#defineIntent(java.lang.String,%20android.content.Intent)">defineIntent(String, Intent)</a></code>.</p></p>
+  <p>Lists all available intent labels as previously defined by calls to <code><a href="../../../../../reference/com/vuzix/sdk/speechrecognitionservice/VuzixSpeechClient.html#defineIntent(java.lang.String,%20android.content.Intent)">defineIntent(java.lang.String, android.content.Intent)</a></code>.</p></p>
     
     <table class="responsive">
       <tr><th colspan=2>Returns</th></tr>
       <tr>
         <td><code>List&lt;String&gt;</code></td>
-        <td width="100%">All labels provided to <code><a href="../../../../../reference/com/vuzix/sdk/speechrecognitionservice/VuzixSpeechClient.html#defineIntent(java.lang.String,%20android.content.Intent)">defineIntent(String, Intent)</a></code>.</p></td>
+        <td width="100%">All labels provided to <code><a href="../../../../../reference/com/vuzix/sdk/speechrecognitionservice/VuzixSpeechClient.html#defineIntent(java.lang.String,%20android.content.Intent)">defineIntent(java.lang.String, android.content.Intent)</a></code>.</p></td>
       </tr>
     </table>
       <table class="responsive">
@@ -3891,7 +4114,7 @@ public List&lt;String&gt; getIntentPhrases (String intentLabel)</pre>
       <tr>
         <td><code>intentLabel</code></td>
         <td width="100%">
-          <code>String</code>: The label matching one previously registered using <code><a href="../../../../../reference/com/vuzix/sdk/speechrecognitionservice/VuzixSpeechClient.html#defineIntent(java.lang.String,%20android.content.Intent)">defineIntent(String, Intent)</a></code>.</p></td>
+          <code>String</code>: The label matching one previously registered using <code><a href="../../../../../reference/com/vuzix/sdk/speechrecognitionservice/VuzixSpeechClient.html#defineIntent(java.lang.String,%20android.content.Intent)">defineIntent(java.lang.String, android.content.Intent)</a></code>.</p></td>
       </tr>
     </table>
     <table class="responsive">
@@ -4023,7 +4246,7 @@ public List&lt;String&gt; getPhrases (String substitution)</pre>
       <tr>
         <td><code>substitution</code></td>
         <td width="100%">
-          <code>String</code>: The substitution as passed to <code><a href="../../../../../reference/com/vuzix/sdk/speechrecognitionservice/VuzixSpeechClient.html#insertPhrase(java.lang.String,%20java.lang.String)">insertPhrase(String, String)</a></code> or
+          <code>String</code>: The substitution as passed to <code><a href="../../../../../reference/com/vuzix/sdk/speechrecognitionservice/VuzixSpeechClient.html#insertPhrase(java.lang.String,%20java.lang.String)">insertPhrase(java.lang.String, java.lang.String)</a></code> or
                      null to get all phrases that have no explicit substitution.</p></td>
       </tr>
     </table>
@@ -4134,6 +4357,86 @@ public int getRecognizerTimeoutMax ()</pre>
 </div>
 
 <div >
+    <h3 class="api-name" id="getSleepEnableSetting()">getSleepEnableSetting</h3>
+    <div class="api-level">
+      <div>
+  </div>
+      
+  
+
+    </div>
+<pre class="api-signature no-pretty-print">
+public boolean getSleepEnableSetting ()</pre>
+    
+    
+
+    
+  <p>Gets the system-wide "Listen while asleep" setting.
+
+ <p>This allows speech recognition to wake the device while the screen is off
+ when it hears the wake word: ("Hello Vuzix")</p></p></p>
+    
+    <table class="responsive">
+      <tr><th colspan=2>Returns</th></tr>
+      <tr>
+        <td><code>boolean</code></td>
+        <td width="100%">The value of the sleep enable settings as a boolean</p></td>
+      </tr>
+    </table>
+      <table class="responsive">
+      <tr><th colspan=2>Throws</th></tr>
+        <tr>
+          <td><code>Exception</code></td>
+          <td width="100%"></td>
+        </tr>
+      </table>
+  
+
+</div>
+
+<div >
+    <h3 class="api-name" id="getSpeechTolerance()">getSpeechTolerance</h3>
+    <div class="api-level">
+      <div>
+  </div>
+      
+  
+
+    </div>
+<pre class="api-signature no-pretty-print">
+public <a href="../../../../../reference/com/vuzix/sdk/speechrecognitionservice/VuzixSpeechClient.SpeechTolerance.html">VuzixSpeechClient.SpeechTolerance</a> getSpeechTolerance ()</pre>
+    
+    
+
+    
+  <p>Gets the system-wide "Pronunciation tolerance" setting.
+
+ <p>This value determines how correctly the user must speak each phrase.</p></p></p>
+    
+    <table class="responsive">
+      <tr><th colspan=2>Returns</th></tr>
+      <tr>
+        <td><code><a href="../../../../../reference/com/vuzix/sdk/speechrecognitionservice/VuzixSpeechClient.SpeechTolerance.html">VuzixSpeechClient.SpeechTolerance</a></code></td>
+        <td width="100%">The speech Tolerance value as a SpeechTolerance enum.</p></td>
+      </tr>
+    </table>
+      <table class="responsive">
+      <tr><th colspan=2>Throws</th></tr>
+        <tr>
+          <td><code>Exception</code></td>
+          <td width="100%"></td>
+        </tr>
+      </table>
+  
+  <div>
+      <p><b>See also:</b></p>
+      <ul class="nolist"><li><code><a href="../../../../../reference/com/vuzix/sdk/speechrecognitionservice/VuzixSpeechClient.SpeechTolerance.html">VuzixSpeechClient.SpeechTolerance</a></code></li>
+      </ul>
+  </div>
+
+</div>
+
+<div >
     <h3 class="api-name" id="getStopPhrases()">getStopPhrases</h3>
     <div class="api-level">
       <div>
@@ -4148,7 +4451,7 @@ public List&lt;String&gt; getStopPhrases ()</pre>
     
 
     
-  <p>Gets all stop phrases including pre-defined and those created by calling <code><a href="../../../../../reference/com/vuzix/sdk/speechrecognitionservice/VuzixSpeechClient.html#insertStopPhrase(java.lang.String)">insertStopPhrase(String)</a></code>.</p></p>
+  <p>Gets all stop phrases including pre-defined and those created by calling <code><a href="../../../../../reference/com/vuzix/sdk/speechrecognitionservice/VuzixSpeechClient.html#insertStopPhrase(java.lang.String)">insertStopPhrase(java.lang.String)</a></code>.</p></p>
     
     <table class="responsive">
       <tr><th colspan=2>Returns</th></tr>
@@ -4182,14 +4485,14 @@ public List&lt;String&gt; getStoredVocabularyNames ()</pre>
     
   <p>Lists all vocabularies previously saved by the current activity.
 
- <p>Vocabularies may have previously been saved by calling <code><a href="../../../../../reference/com/vuzix/sdk/speechrecognitionservice/VuzixSpeechClient.html#storeVocabulary(java.lang.String)">storeVocabulary(String)</a></code>. This
- retrieves the list of all such vocabularies. The names are valid for calls to <code><a href="../../../../../reference/com/vuzix/sdk/speechrecognitionservice/VuzixSpeechClient.html#retrieveVocabulary(java.lang.String)">retrieveVocabulary(String)</a></code> and <code><a href="../../../../../reference/com/vuzix/sdk/speechrecognitionservice/VuzixSpeechClient.html#removeVocabulary(java.lang.String)">removeVocabulary(String)</a></code></p></p></p>
+ <p>Vocabularies may have previously been saved by calling <code><a href="../../../../../reference/com/vuzix/sdk/speechrecognitionservice/VuzixSpeechClient.html#storeVocabulary(java.lang.String)">storeVocabulary(java.lang.String)</a></code>. This
+ retrieves the list of all such vocabularies. The names are valid for calls to <code><a href="../../../../../reference/com/vuzix/sdk/speechrecognitionservice/VuzixSpeechClient.html#retrieveVocabulary(java.lang.String)">retrieveVocabulary(java.lang.String)</a></code> and <code><a href="../../../../../reference/com/vuzix/sdk/speechrecognitionservice/VuzixSpeechClient.html#removeVocabulary(java.lang.String)">removeVocabulary(java.lang.String)</a></code></p></p></p>
     
     <table class="responsive">
       <tr><th colspan=2>Returns</th></tr>
       <tr>
         <td><code>List&lt;String&gt;</code></td>
-        <td width="100%">List of names provided to <code><a href="../../../../../reference/com/vuzix/sdk/speechrecognitionservice/VuzixSpeechClient.html#storeVocabulary(java.lang.String)">storeVocabulary(String)</a></code></p></td>
+        <td width="100%">List of names provided to <code><a href="../../../../../reference/com/vuzix/sdk/speechrecognitionservice/VuzixSpeechClient.html#storeVocabulary(java.lang.String)">storeVocabulary(java.lang.String)</a></code></p></td>
       </tr>
     </table>
       <table class="responsive">
@@ -4220,7 +4523,7 @@ public String getSubstitution (String phrase)</pre>
     
   <p>Get the optional substitution associated with a phrase.
 
- <p>Any phrase added with the <code><a href="../../../../../reference/com/vuzix/sdk/speechrecognitionservice/VuzixSpeechClient.html#insertPhrase(java.lang.String,%20java.lang.String)">insertPhrase(String, String)</a></code> method will have an optional
+ <p>Any phrase added with the <code><a href="../../../../../reference/com/vuzix/sdk/speechrecognitionservice/VuzixSpeechClient.html#insertPhrase(java.lang.String,%20java.lang.String)">insertPhrase(java.lang.String, java.lang.String)</a></code> method will have an optional
  substitution associated with it. This method allows retrieval of the substitution associated with
  a given phrase.</p></p></p>
     
@@ -4229,14 +4532,14 @@ public String getSubstitution (String phrase)</pre>
       <tr>
         <td><code>phrase</code></td>
         <td width="100%">
-          <code>String</code>: The phrase as passed to <code><a href="../../../../../reference/com/vuzix/sdk/speechrecognitionservice/VuzixSpeechClient.html#insertPhrase(java.lang.String,%20java.lang.String)">insertPhrase(String, String)</a></code>.</p></td>
+          <code>String</code>: The phrase as passed to <code><a href="../../../../../reference/com/vuzix/sdk/speechrecognitionservice/VuzixSpeechClient.html#insertPhrase(java.lang.String,%20java.lang.String)">insertPhrase(java.lang.String, java.lang.String)</a></code>.</p></td>
       </tr>
     </table>
     <table class="responsive">
       <tr><th colspan=2>Returns</th></tr>
       <tr>
         <td><code>String</code></td>
-        <td width="100%">substitution as passed to <code><a href="../../../../../reference/com/vuzix/sdk/speechrecognitionservice/VuzixSpeechClient.html#insertPhrase(java.lang.String,%20java.lang.String)">insertPhrase(String, String)</a></code> or null
+        <td width="100%">substitution as passed to <code><a href="../../../../../reference/com/vuzix/sdk/speechrecognitionservice/VuzixSpeechClient.html#insertPhrase(java.lang.String,%20java.lang.String)">insertPhrase(java.lang.String, java.lang.String)</a></code> or null
                   if the phrase is not found.</p></td>
       </tr>
     </table>
@@ -4258,7 +4561,7 @@ public List&lt;String&gt; getVoiceOffPhrases ()</pre>
     
 
     
-  <p>Gets all voice-off phrases including pre-defined and those created by calling <code><a href="../../../../../reference/com/vuzix/sdk/speechrecognitionservice/VuzixSpeechClient.html#insertVoiceOffPhrase(java.lang.String)">insertVoiceOffPhrase(String)</a></code>.</p></p>
+  <p>Gets all voice-off phrases including pre-defined and those created by calling <code><a href="../../../../../reference/com/vuzix/sdk/speechrecognitionservice/VuzixSpeechClient.html#insertVoiceOffPhrase(java.lang.String)">insertVoiceOffPhrase(java.lang.String)</a></code>.</p></p>
     
     <table class="responsive">
       <tr><th colspan=2>Returns</th></tr>
@@ -4290,7 +4593,7 @@ public List&lt;String&gt; getWakeWordPhrases ()</pre>
     
 
     
-  <p>Gets all wake-words including pre-defined and those created by calling <code><a href="../../../../../reference/com/vuzix/sdk/speechrecognitionservice/VuzixSpeechClient.html#insertWakeWordPhrase(java.lang.String)">insertWakeWordPhrase(String)</a></code>.</p></p>
+  <p>Gets all wake-words including pre-defined and those created by calling <code><a href="../../../../../reference/com/vuzix/sdk/speechrecognitionservice/VuzixSpeechClient.html#insertWakeWordPhrase(java.lang.String)">insertWakeWordPhrase(java.lang.String)</a></code>.</p></p>
     
     <table class="responsive">
       <tr><th colspan=2>Returns</th></tr>
@@ -4327,7 +4630,7 @@ public boolean insertIntentPhrase (String phrase,
   <p>Insert a phrase to generate the specified intent upon the phrase being detected, with extra
  undocumented parameters.
 
- <p>Similar to <code><a href="../../../../../reference/com/vuzix/sdk/speechrecognitionservice/VuzixSpeechClient.html#insertIntentPhrase(java.lang.String,%20java.lang.String)">insertIntentPhrase(String, String)</a></code>. This should only be
+ <p>Similar to <code><a href="../../../../../reference/com/vuzix/sdk/speechrecognitionservice/VuzixSpeechClient.html#insertIntentPhrase(java.lang.String,%20java.lang.String)">insertIntentPhrase(java.lang.String, java.lang.String)</a></code>. This should only be
  used when directed by Vuzix Technical Support.</p></p></p>
     
     <table class="responsive">
@@ -4341,7 +4644,7 @@ public boolean insertIntentPhrase (String phrase,
       <tr>
         <td><code>intentLabel</code></td>
         <td width="100%">
-          <code>String</code>: The label matching one previously registered using <code><a href="../../../../../reference/com/vuzix/sdk/speechrecognitionservice/VuzixSpeechClient.html#defineIntent(java.lang.String,%20android.content.Intent)">defineIntent(String, Intent)</a></code>.</p></td>
+          <code>String</code>: The label matching one previously registered using <code><a href="../../../../../reference/com/vuzix/sdk/speechrecognitionservice/VuzixSpeechClient.html#defineIntent(java.lang.String,%20android.content.Intent)">defineIntent(java.lang.String, android.content.Intent)</a></code>.</p></td>
       </tr>
       <tr>
         <td><code>params</code></td>
@@ -4404,7 +4707,7 @@ public boolean insertIntentPhrase (String phrase,
  the most useful free-form intent case is use of a custom Action; this will target the
  broadcast intent from the recognizer to this application.</p>
 
- <p>The Intent to be broadcast must be specified to the vocabulary using <code><a href="../../../../../reference/com/vuzix/sdk/speechrecognitionservice/VuzixSpeechClient.html#defineIntent(java.lang.String,%20android.content.Intent)">defineIntent(String, Intent)</a></code> before the associated intentLabel can be used here.
+ <p>The Intent to be broadcast must be specified to the vocabulary using <code><a href="../../../../../reference/com/vuzix/sdk/speechrecognitionservice/VuzixSpeechClient.html#defineIntent(java.lang.String,%20android.content.Intent)">defineIntent(java.lang.String, android.content.Intent)</a></code> before the associated intentLabel can be used here.
 
  <p>Note: Intents are sent with sendBroadcastAsUser() from the service. They will not
  start new activities as would happen from startActivityForResult().</p>
@@ -4429,7 +4732,7 @@ public boolean insertIntentPhrase (String phrase,
       <tr>
         <td><code>intentLabel</code></td>
         <td width="100%">
-          <code>String</code>: The label matching one previously registered using <code><a href="../../../../../reference/com/vuzix/sdk/speechrecognitionservice/VuzixSpeechClient.html#defineIntent(java.lang.String,%20android.content.Intent)">defineIntent(String, Intent)</a></code>.</p></td>
+          <code>String</code>: The label matching one previously registered using <code><a href="../../../../../reference/com/vuzix/sdk/speechrecognitionservice/VuzixSpeechClient.html#defineIntent(java.lang.String,%20android.content.Intent)">defineIntent(java.lang.String, android.content.Intent)</a></code>.</p></td>
       </tr>
     </table>
     <table class="responsive">
@@ -4477,7 +4780,7 @@ public boolean insertKeycodePhrase (String phrase,
  undocumented capabilities.
 
  <p>Sending repeating keycodes provides the ability to make scrolling behavior.</p>
- <p>Similar to <code><a href="../../../../../reference/com/vuzix/sdk/speechrecognitionservice/VuzixSpeechClient.html#insertKeycodePhrase(java.lang.String,%20int)">insertKeycodePhrase(String, int)</a></code>.  This adds optional repeat
+ <p>Similar to <code><a href="../../../../../reference/com/vuzix/sdk/speechrecognitionservice/VuzixSpeechClient.html#insertKeycodePhrase(java.lang.String,%20int)">insertKeycodePhrase(java.lang.String, int)</a></code>.  This adds optional repeat
  interval and optional internal speech recognizer parameters.</p></p></p>
     
     <table class="responsive">
@@ -4600,7 +4903,7 @@ public boolean insertKeycodePhrase (String phrase,
     
   <p>Inserts a phrase to generate a keycode that will be sent repeatedly upon detection.
 
- <p>Similar to <code><a href="../../../../../reference/com/vuzix/sdk/speechrecognitionservice/VuzixSpeechClient.html#insertKeycodePhrase(java.lang.String,%20int)">insertKeycodePhrase(String, int)</a></code></p>
+ <p>Similar to <code><a href="../../../../../reference/com/vuzix/sdk/speechrecognitionservice/VuzixSpeechClient.html#insertKeycodePhrase(java.lang.String,%20int)">insertKeycodePhrase(java.lang.String, int)</a></code></p>
  <p>This repeats the key at the specified interval until a new phrase
  (e.g. "stop") is recognized</p></p></p>
     
@@ -4658,7 +4961,7 @@ public boolean insertKeycodePhrase (String phrase,
     
   <p>Inserts a phrase to generate keycodes upon detection, with extra undocumented capabilities.
 
-<p>Similar to <code><a href="../../../../../reference/com/vuzix/sdk/speechrecognitionservice/VuzixSpeechClient.html#insertKeycodePhrase(java.lang.String,%20int)">insertKeycodePhrase(String, int)</a></code>.  This adds optional internal speech
+<p>Similar to <code><a href="../../../../../reference/com/vuzix/sdk/speechrecognitionservice/VuzixSpeechClient.html#insertKeycodePhrase(java.lang.String,%20int)">insertKeycodePhrase(java.lang.String, int)</a></code>.  This adds optional internal speech
 recognizer parameters to be used at the direction of Vuzix technical support.</p></p></p>
     
     <table class="responsive">
@@ -4733,7 +5036,7 @@ public boolean insertPhrase (String phrase)</pre>
 
  <p>This method is useful fur developers learning to use the Speech Client. For commercialized
  apps, it is recommended that the optional substitution is provided using the method
- <code><a href="../../../../../reference/com/vuzix/sdk/speechrecognitionservice/VuzixSpeechClient.html#insertPhrase(java.lang.String,%20java.lang.String)">insertPhrase(String, String)</a></code> instead of this method </p></p></p>
+ <code><a href="../../../../../reference/com/vuzix/sdk/speechrecognitionservice/VuzixSpeechClient.html#insertPhrase(java.lang.String,%20java.lang.String)">insertPhrase(java.lang.String, java.lang.String)</a></code> instead of this method </p></p></p>
     
     <table class="responsive">
     <tr><th colspan=2>Parameters</th></tr>
@@ -4785,7 +5088,7 @@ public boolean insertPhrase (String phrase,
     
   <p>Inserts a phrase and provides a substitution to make processing easier for the client.
 
- <p>Similar to <code><a href="../../../../../reference/com/vuzix/sdk/speechrecognitionservice/VuzixSpeechClient.html#insertPhrase(java.lang.String)">insertPhrase(String)</a></code></p>
+ <p>Similar to <code><a href="../../../../../reference/com/vuzix/sdk/speechrecognitionservice/VuzixSpeechClient.html#insertPhrase(java.lang.String)">insertPhrase(java.lang.String)</a></code></p>
  <p>This inserts a phrase to recognize and defines a substitution. The substitution will be returned when
  the phrase is recognized. This is useful when dealing with localize recognition phrases. Regardless
  of the active language, the substitution string will always be identified to your code.</p>
@@ -5127,7 +5430,7 @@ public boolean removeVocabulary (String name)</pre>
       <tr>
         <td><code>name</code></td>
         <td width="100%">
-          <code>String</code>: The arbitrary name previously passed to <code><a href="../../../../../reference/com/vuzix/sdk/speechrecognitionservice/VuzixSpeechClient.html#storeVocabulary(java.lang.String)">storeVocabulary(String)</a></code></p></td>
+          <code>String</code>: The arbitrary name previously passed to <code><a href="../../../../../reference/com/vuzix/sdk/speechrecognitionservice/VuzixSpeechClient.html#storeVocabulary(java.lang.String)">storeVocabulary(java.lang.String)</a></code></p></td>
       </tr>
     </table>
     <table class="responsive">
@@ -5167,7 +5470,7 @@ public boolean retrieveVocabulary (String name)</pre>
       <tr>
         <td><code>name</code></td>
         <td width="100%">
-          <code>String</code>: The arbitrary name previously passed to <code><a href="../../../../../reference/com/vuzix/sdk/speechrecognitionservice/VuzixSpeechClient.html#storeVocabulary(java.lang.String)">storeVocabulary(String)</a></code></p></td>
+          <code>String</code>: The arbitrary name previously passed to <code><a href="../../../../../reference/com/vuzix/sdk/speechrecognitionservice/VuzixSpeechClient.html#storeVocabulary(java.lang.String)">storeVocabulary(java.lang.String)</a></code></p></td>
       </tr>
     </table>
     <table class="responsive">
@@ -5177,6 +5480,45 @@ public boolean retrieveVocabulary (String name)</pre>
         <td width="100%">True if the vocabulary replacement is successful. False otherwise.</p></td>
       </tr>
     </table>
+
+</div>
+
+<div >
+    <h3 class="api-name" id="setBluetoothSetting(boolean)">setBluetoothSetting</h3>
+    <div class="api-level">
+      <div>
+  </div>
+      
+  
+
+    </div>
+<pre class="api-signature no-pretty-print">
+public void setBluetoothSetting (boolean value)</pre>
+    
+    
+
+    
+  <p>Sets the system-wide "Bluetooth input" setting.
+
+ <p>This allows the system to listen to Bluetooth headset audio for speech commands whenever one
+ is connected.</p></p></p>
+    
+    <table class="responsive">
+    <tr><th colspan=2>Parameters</th></tr>
+      <tr>
+        <td><code>value</code></td>
+        <td width="100%">
+          <code>boolean</code>: boolean value to set.</p></td>
+      </tr>
+    </table>
+      <table class="responsive">
+      <tr><th colspan=2>Throws</th></tr>
+        <tr>
+          <td><code>Exception</code></td>
+          <td width="100%"></td>
+        </tr>
+      </table>
+  
 
 </div>
 
@@ -5220,6 +5562,89 @@ public boolean setRecognizerTimeoutConfig (int timeoutSecs)</pre>
   <div>
       <p><b>See also:</b></p>
       <ul class="nolist"><li><code><a href="../../../../../reference/com/vuzix/sdk/speechrecognitionservice/VuzixSpeechClient.html#getRecognizerTimeoutMax()">getRecognizerTimeoutMax()</a></code></li>
+      </ul>
+  </div>
+
+</div>
+
+<div >
+    <h3 class="api-name" id="setSleepEnableSetting(boolean)">setSleepEnableSetting</h3>
+    <div class="api-level">
+      <div>
+  </div>
+      
+  
+
+    </div>
+<pre class="api-signature no-pretty-print">
+public void setSleepEnableSetting (boolean value)</pre>
+    
+    
+
+    
+  <p>Sets the system-wide "Listen while asleep" setting.
+
+ This allows speech recognition to wake the device while the screen is off
+ when it hears the wake word: ("Hello Vuzix")</p></p>
+    
+    <table class="responsive">
+    <tr><th colspan=2>Parameters</th></tr>
+      <tr>
+        <td><code>value</code></td>
+        <td width="100%">
+          <code>boolean</code>: booleanm value to set.</p></td>
+      </tr>
+    </table>
+      <table class="responsive">
+      <tr><th colspan=2>Throws</th></tr>
+        <tr>
+          <td><code>Exception</code></td>
+          <td width="100%"></td>
+        </tr>
+      </table>
+  
+
+</div>
+
+<div >
+    <h3 class="api-name" id="setSpeechTolerance(com.vuzix.sdk.speechrecognitionservice.VuzixSpeechClient.SpeechTolerance)">setSpeechTolerance</h3>
+    <div class="api-level">
+      <div>
+  </div>
+      
+  
+
+    </div>
+<pre class="api-signature no-pretty-print">
+public void setSpeechTolerance (<a href="../../../../../reference/com/vuzix/sdk/speechrecognitionservice/VuzixSpeechClient.SpeechTolerance.html">VuzixSpeechClient.SpeechTolerance</a> value)</pre>
+    
+    
+
+    
+  <p>Sets the system-wide "Pronunciation tolerance" setting.
+
+ <p>This value determines how correctly the user must speak each phrase. This method should only
+ be used if it is exposed so each wearer can adjust the value to meet their needs.</p></p></p>
+    
+    <table class="responsive">
+    <tr><th colspan=2>Parameters</th></tr>
+      <tr>
+        <td><code>value</code></td>
+        <td width="100%">
+          <code>VuzixSpeechClient.SpeechTolerance</code>: SpeechTolerance enum value to set.</p></td>
+      </tr>
+    </table>
+      <table class="responsive">
+      <tr><th colspan=2>Throws</th></tr>
+        <tr>
+          <td><code>Exception</code></td>
+          <td width="100%"></td>
+        </tr>
+      </table>
+  
+  <div>
+      <p><b>See also:</b></p>
+      <ul class="nolist"><li><code><a href="../../../../../reference/com/vuzix/sdk/speechrecognitionservice/VuzixSpeechClient.SpeechTolerance.html">VuzixSpeechClient.SpeechTolerance</a></code></li>
       </ul>
   </div>
 
