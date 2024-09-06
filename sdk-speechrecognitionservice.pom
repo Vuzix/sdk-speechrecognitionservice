@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.vuzix</groupId>
+    <artifactId>sdk-speechrecognitionservice</artifactId>
+    <version>1.97</version>
+    <packaging>jar</packaging>
+    <name>Vuzix/sdk-speechrecognitionservice</name>
+    <url>https://github.com/Vuzix/sdk-speechrecognitionservice</url>
+    <inceptionYear>2017</inceptionYear>
+    <organization>
+        <name>Vuzix Corporation</name>
+        <url>https://www.vuzix.com</url>
+    </organization>
+    <licenses>
+        <license>
+            <name>VUZIX® SOFTWARE DEVELOPMENT KIT LICENSE AND CONFIDENTIALITY AGREEMENT</name>
+            <url>https://www.vuzix.com/pages/vuzix%C2%AE-software-development-kit-license-and-confidentiality-agreement</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+    <scm>
+        <connection>scm:git://github.com/Vuzix/sdk-speechrecognitionservice.git</connection>
+        <developerConnection>scm:git://github.com/Vuzix/sdk-speechrecognitionservice.git</developerConnection>
+        <url>git://github.com/Vuzix/sdk-speechrecognitionservice.git</url>
+    </scm>
+</project>
