@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.vuzix</groupId>
     <artifactId>sdk-speechrecognitionservice</artifactId>
-    <version>1.97</version>
+    <version>1.97.1</version>
     <packaging>jar</packaging>
     <name>Vuzix/sdk-speechrecognitionservice</name>
     <url>https://github.com/Vuzix/sdk-speechrecognitionservice</url>
